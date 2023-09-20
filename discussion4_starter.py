@@ -27,7 +27,8 @@ class Rectangle():
     #       False otherwise
 
     # YOUR CODE HERE
-
+    def verify_input(self):
+        return self.w > 0 and self.h > 0
 
 
     # Create the "area" method
